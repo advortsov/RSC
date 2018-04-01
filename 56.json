@@ -1,0 +1,243 @@
+[
+  {
+    "document": {
+      "receipt": {
+        "retailPlaceAddress": "394055, Воронежская обл, Воронеж г, Моисеева ул, дом $ 47",
+        "kktRegId": "0001665626033065",
+        "items": [
+          {
+            "quantity": 2,
+            "price": 9900,
+            "sum": 19800,
+            "name": "ВKУСНОТЕЕВО Творог 0,5% 300г пл/ст (",
+            "modifiers": [],
+            "properties": []
+          },
+          {
+            "quantity": 1,
+            "price": 10990,
+            "sum": 10990,
+            "name": "ФИНН KРИСП Сухарики Ориджинал рж 200",
+            "modifiers": [],
+            "properties": []
+          },
+          {
+            "quantity": 2,
+            "price": 5190,
+            "sum": 10380,
+            "name": "Молоко стерилиз. 1,5% 1л тетра брик",
+            "modifiers": [],
+            "properties": []
+          },
+          {
+            "quantity": 1,
+            "price": 300,
+            "sum": 300,
+            "name": "Пакет \"Магнит\" белый (Пластиктрейд)",
+            "modifiers": [],
+            "properties": []
+          }
+        ],
+        "stornoItems": [],
+        "operationType": 1,
+        "rawData": "AwAKAhEEEAA4NzEwMDAwMTAxODY1OTM2DQQUADAwMDE2NjU2MjYwMzMwNjUgICAg+gMMADIzMTAwMzE0NzUgIBAEBACWHgAA9AMEAGCstlo1BAYAMQQLZLDsDgQEACAAAAASBAQA9AAAAB4EAQAB/AMCAP6hIwRQAAYEJACCS5ORjY6ShYWCjiCSoq7grqMgMCw1JSAzMDCjIK+rL+HiICg3BAIArCb/AwMAA9AHEwQCAFhNrwQBAAKwBAIACAe8BAEAAb4EAQAEIwRQAAYEJACUiI2NIEuQiJGPIJHj5aDgqKqoII7gqKSmqK2gqyDgpiAyMDA3BAIA7ir/AwMAA+gDEwQCAO4qrwQBAAKwBAIA5wO8BAEAAb4EAQAEIwRPAAYEIwCMrquuqq4g4eKl4KirqKcuIDEsNSUgMasg4qXi4KAgoeCoqjcEAgBGFP8DAwAD0AcTBAIAjCivBAEAArAEAgCwA7wEAQABvgQBAAQjBE4ABgQjAI+gqqXiICKMoKOtqOIiIKGlq+upICiPq6Dh4qiq4uClqaQpNwQCACwB/wMDAAPoAxMEAgAsAa8EAQABsAQBAC68BAEAAb4EAQAEBwQBAAA5BAIA/qG/BAEAAMAEAQAAwQQBAAD9AwkAkuClr6CrqK2gHwQBAAEkBAwAd3d3Lm5hbG9nLnJ1uQQBAAJOBAEALk8EAgCfDoEGII91rp3l",
+        "dateTime": "2018-03-24T19:52:00",
+        "nds18": 46,
+        "properties": [],
+        "ecashTotalSum": 41470,
+        "receiptCode": 3,
+        "fiscalDriveNumber": "8710000101865936",
+        "requestNumber": 244,
+        "cashTotalSum": 0,
+        "nds10": 3743,
+        "fiscalSign": 191148268,
+        "fiscalDocumentNumber": 7830,
+        "modifiers": [],
+        "operator": "Трепалина",
+        "shiftNumber": 32,
+        "senderAddress": "",
+        "totalSum": 41470,
+        "taxationType": 1,
+        "userInn": "2310031475",
+        "message": []
+      }
+    },
+    "document": {
+      "receipt": {
+        "fiscalDriveNumber": "8710000100135743",
+        "dateTime": "2018-03-21T19:25:00",
+        "requestNumber": 539,
+        "receiptCode": 3,
+        "rawData": "AwD/AhEEEAA4NzEwMDAwMTAwMTM1NzQzDQQUADAwMDAzMDUzNzMwMTQ0NjYgICAg+gMMADc3MjgwMjkxMTAgIBAEBAAWbgIA9AMEAIyxslo1BAYAMQRTF3rbDgQEAC0BAAASBAQAGwIAAB4EAQAB/AMDADAxASMEQgAGBCEAMSozMTg5NSCHpaulrewgkaCroOIgq6jh4q6irqkgMejiNwQCANoM/wMCAAABEwQCANoMrwQBAAKwBAIAKwEjBDsABgQaADI6NzA3MTEgjK6rrqquIFBBUk1BTEFUIDGrNwQCAE4b/wMCAAABEwQCAE4brwQBAAKwBAIAewIjBEYABgQkADMqMzAzNDI3NyCUqKulIJGFi5yRioiFIJKQgISIloiIIDGqozcEAgC8Tf8DAwADRgMTBAIAJEGvBAEAArAEAgDsBSMERgAGBCQANCozMDM0Mjc3IJSoq6UgkYWLnJGKiIUgkpCAhIiWiIggMaqjNwQCALxN/wMDAANAAxMEAgCtQK8EAQACsAQCAOEFIwREAAYEIgA1KjMyMDQ0NTcgiq6q4qWpq+wgrK7g4aquqSDhL6wgMaqjNwQCAHRZ/wMDAAMCBBMEAgDHW68EAQACsAQCAFgIIwRJAAYEKQA2OjM0MTk3Nzcgiq6t5KXioCCBoOKureeoqiDorqquq6CkreupIDUyozcEAgAmEf8DAgAAARMEAgAmEa8EAQAFsAQBAAAjBEUABgQlADc6MzQ1NTI1MiCNoK+o4q6qIENPQ0EtQ09MQSCHhZCOIDEsNas3BAIAShr/AwIAAAETBAIAShqvBAEABbAEAQAAIwQ9AAYEHwA4KjM2NDgxNDUgneKoqqXiqqAgquCg4a2g7yBSNaysNwQBAAD/AwIAAAMTBAEAAK8EAQAFsAQBAAAHBAEAADkEAwAwMQG/BAEAAMAEAQAAwQQBAAD9AxUAgaChpa2qriCFq6WtoCCe4Oyloq2gswQMADM2NjUxMjU2MDY2OR8EAQABUAQCAHArTwQCAMwX",
+        "cashTotalSum": 0,
+        "fiscalDocumentNumber": 159254,
+        "kktRegId": "0000305373014466    ",
+        "taxationType": 1,
+        "shiftNumber": 301,
+        "ecashTotalSum": 78128,
+        "nds10": 6092,
+        "nds0": 11120,
+        "totalSum": 78128,
+        "operationType": 1,
+        "userInn": "7728029110",
+        "operator": "Бабенко Елена Юрьевна",
+        "items": [
+          {
+            "quantity": 1,
+            "name": "1*31895 Зелень Салат листовой 1шт",
+            "price": 3290,
+            "sum": 3290
+          },
+          {
+            "quantity": 1,
+            "name": "2:70711 Молоко PARMALAT 1л",
+            "price": 6990,
+            "sum": 6990
+          },
+          {
+            "quantity": 0.838,
+            "name": "3*3034277 Филе СЕЛЬСКИЕ ТРАДИЦИИ 1кг",
+            "price": 19900,
+            "sum": 16676
+          },
+          {
+            "quantity": 0.832,
+            "name": "4*3034277 Филе СЕЛЬСКИЕ ТРАДИЦИИ 1кг",
+            "price": 19900,
+            "sum": 16557
+          },
+          {
+            "quantity": 1.026,
+            "name": "5*3204457 Коктейль морской с/м 1кг",
+            "price": 22900,
+            "sum": 23495
+          },
+          {
+            "quantity": 1,
+            "name": "6:3419777 Конфета Батончик шоколадный 52г",
+            "price": 4390,
+            "sum": 4390
+          },
+          {
+            "quantity": 1,
+            "name": "7:3455252 Напиток COCA-COLA ЗЕРО 1,5л",
+            "price": 6730,
+            "sum": 6730
+          },
+          {
+            "quantity": 3,
+            "name": "8*3648145 Этикетка красная R5мм",
+            "price": 0,
+            "sum": 0
+          }
+        ],
+        "fiscalSign": 1394047707
+      }
+    }
+
+  {
+    "document": {
+      "receipt": {
+        "taxationType": 1,
+        "totalSum": 6200,
+        "properties": [],
+        "userInn": "2310031475",
+        "shiftNumber": 32,
+        "operationType": 1,
+        "receiptCode": 3,
+        "rawData": "AwALAREEEAA4NzEwMDAwMTAxODY0MTQ2DQQUADAwMDE2NjU2MTUwMzE4MTggICAg+gMMADIzMTAwMzE0NzUgIBAEBADaGQAA9AMEAMwUtVo1BAYAMQS6+9vpDgQEACAAAAASBAQAOAAAAB4EAQAB/AMCADgYIwRQAAYEJABQRVBTSSBMaWdodCCDoKcuraCvLiAxLDc1qyCPnZIoj6Wv4ag3BAIAOBj/AwMAA+gDEwQCADgYrwQBAAGwBAIAsgO8BAEAAb4EAQAEBwQBAAA5BAIAOBi/BAEAAMAEAQAAwQQBAAD9AwgAgq6rruWuoqAfBAEAASQEDAB3d3cubmFsb2cucnW5BAEAAk4EAgCyA4EG1+HWCION",
+        "fiscalDriveNumber": "8710000101864146",
+        "dateTime": "2018-03-23T14:53:00",
+        "stornoItems": [],
+        "retailPlaceAddress": "394055, Воронежская обл, Воронеж г, Моисеева ул, дом $ 47",
+        "senderAddress": "",
+        "fiscalSign": 3137068009,
+        "requestNumber": 56,
+        "ecashTotalSum": 6200,
+        "cashTotalSum": 0,
+        "items": [
+          {
+            "quantity": 1,
+            "price": 6200,
+            "sum": 6200,
+            "properties": [],
+            "modifiers": [],
+            "name": "PEPSI Light Газ.нап. 1,75л ПЭТ(Пепси"
+          }
+        ],
+        "nds18": 946,
+        "operator": "Волохова",
+        "message": [],
+        "fiscalDocumentNumber": 6618,
+        "kktRegId": "0001665615031818",
+        "modifiers": []
+      }
+    },
+    "document": {
+      "receipt": {
+        "operator": "Немцова",
+        "properties": [],
+        "cashTotalSum": 0,
+        "stornoItems": [],
+        "taxationType": 1,
+        "kktRegId": "0001665626033065",
+        "nds18": 2802,
+        "requestNumber": 94,
+        "receiptCode": 3,
+        "ecashTotalSum": 32160,
+        "items": [
+          {
+            "name": "KAMIS Припр. к курице 30г (Kамис) :3",
+            "modifiers": [],
+            "quantity": 2,
+            "properties": [],
+            "sum": 8980,
+            "price": 4490
+          },
+          {
+            "name": "PEPSI Light Газ.нап. 1,75л ПЭТ(Пепси",
+            "modifiers": [],
+            "quantity": 1,
+            "properties": [],
+            "sum": 6200,
+            "price": 6200
+          },
+          {
+            "name": "Яйцо столовое С1 фас 30шт термо/уп:8",
+            "modifiers": [],
+            "quantity": 1,
+            "properties": [],
+            "sum": 13790,
+            "price": 13790
+          },
+          {
+            "name": "KITKAT шок мол с хруст вафл 40г фл/п",
+            "modifiers": [],
+            "quantity": 1,
+            "properties": [],
+            "sum": 3190,
+            "price": 3190
+          }
+        ],
+        "nds10": 1254,
+        "fiscalDocumentNumber": 6054,
+        "shiftNumber": 24,
+        "message": [],
+        "totalSum": 32160,
+        "rawData": " + /AMCAKB9IwRQAAYEJABLQU1JUyCP4Kiv4C4gqiCq4+Co5qUgMzCjIChLoKyo4SkgOjM3BAIAihH/AwMAA9AHEwQCABQjrwQBAAGwBAIAWgW8BAEAAb4EAQAEIwRQAAYEJABQRVBTSSBMaWdodCCDoKcuraCvLiAxLDc1qyCPnZIoj6Wv4ag3BAIAOBj/AwMAA+gDEwQCADgYrwQBAAGwBAIAsgO8BAEAAb4EAQAEIwRQAAYEJACfqeauIOHirquuoq6lIJExIOSg4SAzMOjiIOKl4KyuL+OvOjg3BAIA3jX/AwMAA+gDEwQCAN41rwQBAAKwBAIA5gS8BAEAAb4EAQAEIwRQAAYEJABLSVRLQVQg6K6qIKyuqyDhIOXg4+HiIKKg5KsgNDCjIOSrL683BAIAdgz/AwMAA+gDEwQCAHYMrwQBAAGwBAIA5wG8BAEAAb4EAQAEBwQBAAA5BAIAoH2/BAEAAMAEAQAAwQQBAAD9AwcAjaWs5q6ioB8EAQABJAQMAHd3dy5uYWxvZy5ydbkEAQACTgQCAPIKTwQCAOYEgQbdyl58dNs=",
+        "senderAddress": "",
+        "userInn": "2310031475",
+        "retailPlaceAddress": "394055, Воронежская обл, Воронеж г, Моисеева ул, дом $ 47",
+        "operationType": 1,
+        "dateTime": "2018-03-17T16:47:00",
+        "modifiers": [],
+        "fiscalDriveNumber": "8710000101865936",
+        "fiscalSign": 860390521
+      }
+    }
+  }
+
+
+
+  }
+]

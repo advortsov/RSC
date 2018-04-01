@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_large"
+    tools:ignore="RtlHardcoded">
+
+    <TextView
+        android:id="@id/all_item_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/gray_0b1f35"
+        android:textSize="@dimen/text.18" />
+
+    <!--<TextView-->
+    <!--android:id="@id/item_name"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:fontFamily="sans-serif"-->
+    <!--android:textColor="@color/gray_0b1f35"-->
+    <!--android:textSize="@dimen/text.18" />-->
+
+    <!--<TextView-->
+    <!--android:id="@id/item_quantity"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/margin_small"-->
+    <!--android:fontFamily="sans-serif-light"-->
+    <!--android:textColor="@color/gray_0b1f35"-->
+    <!--android:textSize="@dimen/text.16" />-->
+
+    <!--<TextView-->
+    <!--android:id="@id/item_price"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/margin_small"-->
+    <!--android:fontFamily="sans-serif-light"-->
+    <!--android:textColor="@color/gray_0b1f35"-->
+    <!--android:textSize="@dimen/text.16" />-->
+
+    <!--<TextView-->
+    <!--android:id="@id/item_sum"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/margin_small"-->
+    <!--android:fontFamily="sans-serif-light"-->
+    <!--android:textColor="@color/gray_0b1f35"-->
+    <!--android:textSize="@dimen/text.16" />-->
+
+</LinearLayout>
+

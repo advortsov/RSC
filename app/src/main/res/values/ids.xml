@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="auth_request" type="id" />
+    <item name="repositories_request" type="id" />
+    <item name="commits_request" type="id" />
+    <item name="fns_receipt_request" type="id" />
+
+</resources>

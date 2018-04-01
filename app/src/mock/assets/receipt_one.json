@@ -1,0 +1,59 @@
+{
+  "document": {
+    "receipt": {
+      "dateTime": "2018-03-09T10:39:00",
+      "stornoItems": [],
+      "kktRegId": "0001003436008520",
+      "userInn": "2310031475",
+      "message": [],
+      "operationType": 1,
+      "fiscalSign": 4266921602,
+      "receiptCode": 3,
+      "user": "АО \"Тандер\"",
+      "ecashTotalSum": 0,
+      "properties": [],
+      "senderAddress": "",
+      "fiscalDocumentNumber": 70534,
+      "shiftNumber": 395,
+      "rawData": "AwCmAREEEAA4NzEwMDAwMTAwNTIxNTEzDQQUADAwMDEwMDM0MzYwMDg1MjAgICAg+gMMADIzMTAwMzE0NzUgIBAEBACGEwEA9AMEAERkolo1BAYAMQT+VA6CDgQEAIsBAAASBAQAQQAAAB4EAQAB/AMCAEwdIwRBAAYEJACLnoGIjJuJIIOOkI6EIIql5KjgIDElIDkwMKMgr+7gLa+gqiA3BAIArhD/AwMAA+gDEwQCAK4QTwQCAIQBIwRAAAYEJACVq6WhII+lqquloqCtreupIK2uouupICKDruDv56ipIOWrpaE3BAIAmgb/AwMAA+gDEwQCAJoGTwQBAJojBDUABgQZAIyOkIqOgpwg4aKlpi4g5qWtoCCnoCAxqqM3BAIATgf/AwMAA1ADEwQCADIGTwQBAJD9AwkAiqCv4+HiqK2gBwQCAEwdOQQBAABPBAIArgIYBAsAgI4gIpKgraSl4CLxAz0ANDA0MTMwLCCCrqujrqPgoKThqqDvIK6hqywggq6rpuGqqKkgoywgi6WtqK2gIK/gLariLCCkrqwg/CA3Nh8EAQABgQaTNv+Q1pE=",
+      "totalSum": 7500,
+      "nds10": 686,
+      "taxationType": 1,
+      "fiscalDriveNumber": "8710000100521513",
+      "retailPlaceAddress": "404130, Волгоградская обл, Волжский г, Ленина пр-кт, дом № 76",
+      "operator": "Капустина",
+      "modifiers": [],
+      "cashTotalSum": 7500,
+      "items": [
+        {
+          "nds10": 388,
+          "properties": [],
+          "modifiers": [],
+          "price": 4270,
+          "sum": 4270,
+          "quantity": 1,
+          "name": "ЛЮБИМЫЙ ГОРОД Кефир 1% 900г пюр-пак"
+        },
+        {
+          "nds10": 154,
+          "properties": [],
+          "modifiers": [],
+          "price": 1690,
+          "sum": 1690,
+          "quantity": 1,
+          "name": "Хлеб Пеклеванный новый \"Горячий хлеб"
+        },
+        {
+          "nds10": 144,
+          "properties": [],
+          "modifiers": [],
+          "price": 1870,
+          "sum": 1586,
+          "quantity": 0.848,
+          "name": "МОРКОВЬ свеж. цена за 1кг"
+        }
+      ],
+      "requestNumber": 65
+    }
+  }
+}
