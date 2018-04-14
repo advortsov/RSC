@@ -3,6 +3,7 @@ package receipter.aldvc.receipter3.repository;
 import android.support.annotation.NonNull;
 import android.util.Base64;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,20 +22,6 @@ public class DefaultReceiptRepository implements ReceiptRepository {
     private static final String USERNAME = "+79521001847";
     private static final String PASSWORD = "573761";
 
-
-    @NonNull
-    @Override
-    public Observable<List<Receipt>> allReceipts() {
-        Realm realm = Realm.getDefaultInstance();
-        RealmResults<Receipt> receipts = realm
-                .where(Receipt.class)
-                .findAll()
-                .sort("dateTime", Sort.DESCENDING);
-        return Observable
-                .just(realm.copyFromRealm(receipts))
-                .compose(RxUtils.async());
-    }
-
     @NonNull
     @Override
     public Observable<Receipt> receipt(@NonNull String fn, @NonNull String fd, @NonNull String fs) {
@@ -50,6 +37,27 @@ public class DefaultReceiptRepository implements ReceiptRepository {
         Realm realm = Realm.getDefaultInstance();
         realm.executeTransaction(r -> r.insertOrUpdate(receipt));
         return Observable.just(receipt);
+    }
+
+    @NonNull
+    @Override
+    public Receipt simpleSave(Receipt receipt) {
+        Realm realm = Realm.getDefaultInstance();
+        realm.executeTransaction(r -> r.insertOrUpdate(receipt));
+        return receipt;
+    }
+
+    @NonNull
+    @Override
+    public Observable<List<Receipt>> receiptsByPeriod(Date from, Date to) {
+        Realm realm = Realm.getDefaultInstance();
+        RealmResults<Receipt> receipts = realm
+                .where(Receipt.class)
+                .findAll().where().between("dateTime", from, to).findAll()
+                .sort("dateTime", Sort.DESCENDING);
+        return Observable
+                .just(realm.copyFromRealm(receipts))
+                .compose(RxUtils.async());
     }
 
     private Map<String, String> getHeaders() {

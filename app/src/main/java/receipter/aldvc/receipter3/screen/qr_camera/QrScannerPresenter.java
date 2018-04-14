@@ -1,5 +1,7 @@
 package receipter.aldvc.receipter3.screen.qr_camera;
 
+import android.net.Uri;
+
 import com.arellomobile.mvp.InjectViewState;
 import com.arellomobile.mvp.MvpPresenter;
 import com.google.zxing.Result;
@@ -26,19 +28,11 @@ public class QrScannerPresenter extends MvpPresenter<QrScannerView> implements Z
 
     @Override
     public void handleResult(Result rawResult) {
-        String fn = getQueryParameter(rawResult.getText(), "fn");
-        String fd = getQueryParameter(rawResult.getText(), "i");
-        String fs = getQueryParameter(rawResult.getText(), "fp");
+        Uri uri = Uri.parse("www.ddd.ru/?" + rawResult.getText());
+        String fn = uri.getQueryParameter("fn");
+        String fd = uri.getQueryParameter("i");
+        String fs = uri.getQueryParameter("fp");
         createReceipt(fn, fd, fs);
-    }
-
-    private String getQueryParameter(String query, String param) {
-        try {
-            String cutFromLeft = query.substring(query.indexOf(param + "=") + 1, query.length());
-            return cutFromLeft.substring(0, query.indexOf("&"));
-        } catch (Exception e) {
-            throw new IllegalArgumentException("Can not parse result of qr scan: " + e.getMessage());
-        }
     }
 
 

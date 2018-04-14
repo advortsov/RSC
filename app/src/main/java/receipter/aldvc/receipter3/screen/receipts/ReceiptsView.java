@@ -16,4 +16,8 @@ public interface ReceiptsView extends LoadingView {
     void startQrCamera();
 
     void showReceiptItems(Receipt receipt);
+
+    void openCalendar();
+
+    void showReceiptsSum(List<Receipt> receipts);
 }

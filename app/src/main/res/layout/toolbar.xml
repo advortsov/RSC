@@ -11,6 +11,48 @@
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         app:layout_scrollFlags="scroll|enterAlways"
-        app:popupTheme="@style/AppTheme.PopupOverlay" />
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:showAsAction="ifRoom">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/calendar_btn"
+                style="@android:style/Widget.Material.Light.ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="?attr/colorPrimary"
+                android:cropToPadding="false"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_action_name" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_toEndOf="@+id/calendar_btn"
+                android:layout_toRightOf="@+id/calendar_btn"
+                android:text="Сегодня"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+
+            <TextView
+                android:id="@+id/periodSum"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="556,55Р"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.PopupMenu.Large" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
 
 </android.support.design.widget.AppBarLayout>

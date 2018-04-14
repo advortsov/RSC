@@ -3,6 +3,8 @@
     <!-- general items -->
     <item name="content_frame" type="id" />
     <item name="toolbar" type="id" />
+    <item name="calendar_btn" type="id" />
+
     <item name="recyclerView" type="id" />
     <item name="empty" type="id" />
 

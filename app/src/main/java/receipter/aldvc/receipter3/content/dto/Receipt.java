@@ -231,7 +231,7 @@ public class Receipt extends RealmObject {
     }
 
     public Integer getTotalSum() {
-        return totalSum;
+        return totalSum == null ? 0 : totalSum;
     }
 
     public void setTotalSum(Integer totalSum) {

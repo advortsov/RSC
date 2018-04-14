@@ -52,4 +52,8 @@ public class Item extends RealmObject {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
 }

@@ -26,7 +26,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".screen.qr_camera.QrScannerActivity" />
+        <activity android:name=".screen.qr_camera.QrScannerActivity">
+            android:screenOrientation="portrait"
+        </activity>
+        <activity android:name=".screen.calendar.PeriodActivity">
+            android:screenOrientation="portrait"
+        </activity>
 
     </application>
 

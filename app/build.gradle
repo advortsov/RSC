@@ -88,9 +88,10 @@ android {
 
 
         implementation 'com.arello-mobile:moxy-app-compat:1.5.3'
-
-
         annotationProcessor 'com.arello-mobile:moxy-compiler:1.5.3'
+
+        implementation 'com.applandeo:material-calendar-view:1.4.0'
+        compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
 
     }
 }

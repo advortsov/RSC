@@ -9,6 +9,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import receipter.aldvc.receipter3.R;
 import receipter.aldvc.receipter3.content.dto.Receipt;
+import receipter.aldvc.receipter3.utils.TextUtils;
 
 import static receipter.aldvc.receipter3.utils.TextUtils.formatDate;
 import static receipter.aldvc.receipter3.utils.TextUtils.formatPrice;
@@ -27,7 +28,7 @@ public class ReceiptHolder extends RecyclerView.ViewHolder {
     }
 
     public void bind(@NonNull Receipt receipt) {
-        mDate.setText(formatDate(receipt.getDateTime()));
+        mDate.setText(formatDate(receipt.getDateTime(), TextUtils.DATE_WITH_TIME_FULL));
         mSum.setText(formatPrice(receipt.getTotalSum()));
     }
 

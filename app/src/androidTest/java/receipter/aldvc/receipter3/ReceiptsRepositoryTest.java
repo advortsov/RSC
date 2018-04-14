@@ -14,7 +14,6 @@ import receipter.aldvc.receipter3.repository.DefaultReceiptRepository;
 import receipter.aldvc.receipter3.repository.ReceiptRepository;
 import receipter.aldvc.receipter3.repository.RepositoryProvider;
 import receipter.aldvc.receipter3.test.RxSchedulersTestRule;
-import rx.Observable;
 import rx.observers.TestSubscriber;
 
 import static org.junit.Assert.assertEquals;
@@ -63,20 +62,20 @@ public class ReceiptsRepositoryTest {
 ////        assertEquals("", storage.getUserName().toBlocking().first());
 //    }
 
-    @Test
-    public void testFetchAllReceipts() {
-        Receipt r1 = new Receipt();
-        r1.setFiscalSign("ghhgfhhgf");
-        Receipt r2 = new Receipt();
-        r2.setFiscalSign("ghhgf");
-        mRepository.save(r1).subscribe();
-        mRepository.save(r2).subscribe();
-        TestSubscriber<Receipt> testSubscriber = new TestSubscriber<>();
-        mRepository.allReceipts().flatMap(Observable::from).subscribe(testSubscriber);
-
-        testSubscriber.assertNoErrors();
-        testSubscriber.assertValueCount(2);
-    }
+//    @Test
+//    public void testFetchAllReceipts() {
+//        Receipt r1 = new Receipt();
+//        r1.setFiscalSign("ghhgfhhgf");
+//        Receipt r2 = new Receipt();
+//        r2.setFiscalSign("ghhgf");
+//        mRepository.save(r1).subscribe();
+//        mRepository.save(r2).subscribe();
+//        TestSubscriber<Receipt> testSubscriber = new TestSubscriber<>();
+//        mRepository.allReceipts().flatMap(Observable::from).subscribe(testSubscriber);
+//
+//        testSubscriber.assertNoErrors();
+//        testSubscriber.assertValueCount(2);
+//    }
 
     @Test
     public void testLoadAndCreateReceipt() {
